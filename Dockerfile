@@ -1,4 +1,5 @@
-FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04
+FROM nvidia/cuda:12.0.0-runtime-ubuntu22.04
+
 
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Shanghai
